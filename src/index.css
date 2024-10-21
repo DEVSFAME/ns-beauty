@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #dbc5ac; /* Fond gris très clair */
+  color: #1f2937; /* Texte gris foncé */
+}
+
+.bg-primary {
+  background-color: #3b82f6; /* Bleu */
+}
+
+.text-primary {
+  color: #3b82f6; /* Bleu */
+}
+
+.border-primary {
+  border-color: #3b82f6; /* Bleu */
+}
+
+.hover\:bg-primary:hover {
+  background-color: #2563eb; /* Bleu foncé au survol */
+}
+
+.hover\:text-primary:hover {
+  color: #3b82f6; /* Bleu au survol */
+}
